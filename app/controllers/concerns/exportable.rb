@@ -14,7 +14,7 @@ module Exportable
                 task.done? ? 'Sim' : 'Não',
                 task.parent_id,
                 task.created_at,
-                task.update_at
+                task.updated_at
 
             ] 
         end
